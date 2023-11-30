@@ -67,15 +67,18 @@ def maps(driver, state):
 						mod = "fast"
 						lvl = 0
 						cursors = ["difficulty", "loot"]
-					elif world_num % 2 == 0 or (world_num == 165 and config.current_challenge == "Toxicity"):
+					elif world_num % 2 == 0:
 						if fs < 0.5:
 							cursors = ["size"]
 						else:
 							cursors = ["size", "difficulty"]
 						mod = "prestige"
 						lvl = 0
+					elif world_num == 165 and config.current_challenge == "Toxicity":
+						cursors = ["difficulty", "loot"]
+						mod = "fast"
+						lvl = 0
 					else:
-						#print("")
 						return
 					# Going to maps
 					get_elem(driver, "mapsBtnText").click()

@@ -64,62 +64,62 @@ def main():
 				print("=" * 30 , "  Saved  ", "=" * 30)
 
 			if showcounter % 2 == 0:
+
 				reset_state()
 				previous_time = time.time()
 				update_states()
-				print("Update state", time.time() - previous_time)
+				if config.show_time:
+					print("Update state", time.time() - previous_time)
 				previous_time = time.time()
-				#print(state)
-				#print("3")
 
 				upgrades_to_do = upgrades()
-				print("upgrades", time.time() - previous_time)
+				if config.show_time:
+					print("upgrades", time.time() - previous_time)
 				previous_time = time.time()
 				if not upgrades_to_do:
 					armor()
-					print("armor", time.time() - previous_time)
+					if config.show_time:
+						print("armor", time.time() - previous_time)
 				previous_time = time.time()
 				hire()
-				print("hire ", time.time() - previous_time)
+				if config.show_time:
+					print("hire ", time.time() - previous_time)
 				previous_time = time.time()
 				check_geneticist()
-				print("check_geneticist ", time.time() - previous_time)
+				if config.show_time:
+					print("check_geneticist ", time.time() - previous_time)
 				previous_time = time.time()
-				#print("4")
 				gather(upgrades_to_do)
-				print("gather ", time.time() - previous_time)
+				if config.show_time:
+					print("gather ", time.time() - previous_time)
 				previous_time = time.time()
-				#print("5")
 				fight()
-				#print("6")
 				build()
-				print("build ", time.time() - previous_time)
+				if config.show_time:
+					print("build ", time.time() - previous_time)
 				previous_time = time.time()
 				#print("7")
 				formation(driver)
-				print("formation ", time.time() - previous_time)
+				if config.show_time:
+					print("formation ", time.time() - previous_time)
 				previous_time = time.time()
-				#print("8")
-				
-				#print("9")
+
 				exit_map(driver, state)
-				print("exit_map ", time.time() - previous_time)
+				if config.show_time:
+					print("exit_map ", time.time() - previous_time)
 				previous_time = time.time()
 				leaving_void_map_selection(driver)
-				#print("leaving_void_map_selection ", time.time() - previous_time)
+				if config.show_time:
+					print("leaving_void_map_selection ", time.time() - previous_time)
 				previous_time = time.time()
 				leaving_map_selection(driver)
-				#print("leaving_map_selection ", time.time() - previous_time)
+				if config.show_time:
+					print("leaving_map_selection ", time.time() - previous_time)
 				previous_time = time.time()
 				maps(driver, state)
-				print("maps ", time.time() - previous_time)
-				previous_time = time.time()
-				#portal(driver)
+				if config.show_time:
+					print("maps ", time.time() - previous_time)
 
-				#farming_maps(driver, state)
-				#print("10")
-				
-				#print("11")
 				if world_number(driver) >= config.CHALLENGES[config.current_challenge]["portal_at"] :
 					portal(driver)
 					pass
@@ -144,6 +144,125 @@ def check_geneticist():
 	except Exception as e:
 		#print(e)
 		pass
+
+
+def geneticist():
+	try:
+
+		# alive time  ===  respawn time
+
+		life = float(get_elem(driver,  "goodGuyBar").get_attribute("style").split("%;")[0].split(" ")[1])
+
+		if life > 0:
+			if life > 50 + config.current_life:
+				config.alive_time = time.time() - config.alive_start
+				config.alive_start = time.time()
+
+				config.alive_array.append(config.alive_time)
+				if len(config.alive_array) > 5:
+					config.alive_array.pop(0)
+				mean = sum(config.alive_array) / len(config.alive_array)
+				print("Respawn time : ", config.alive_time, "Mean : ", mean)
+			config.dead_start = 0
+
+		else:
+			if config.dead_start == 0:
+				config.dead_start = time.time()
+			config.dead_time = time.time() - config.dead_start
+			print("Dead time : ", config.dead_time)
+
+		if config.dead_time > 1:
+			print("Firing geneticist")
+			get_elem(driver, "tab2Text").click()
+			get_elem(driver, "fireBtn").click()
+			get_elem(driver, "Geneticist").click()
+			get_elem(driver, "fireBtn").click()
+			get_elem(driver, "tab1Text").click()
+
+		elif num(get_elem(driver, "trimpsTimeToFill").text.split(" ")[-2]) < mean - config.dead_time:
+
+			get_elem(driver, "tab2Text").click()
+			gen = get_elem(driver, "Geneticist")
+
+			if "thingColorCanAfford" in gen.get_attribute("class"):
+				print("Firing Farmer and hiring geneticist")
+				get_elem(driver, "fireBtn").click()
+				get_elem(driver, "Farmer").click()
+				get_elem(driver, "fireBtn").click()
+				gen.click()
+
+
+			get_elem(driver, "tab1Text").click()
+
+
+		config.current_life = life
+
+		return
+
+
+
+		if config.gen_start == 0:
+			config.gen_start = time.time()
+
+		info = get_elem(driver, "trimpsTimeToFill").text
+
+		breeding_time = 0
+		if "/" in info:
+			breeding_time = num(info.split("/")[0].split(" ")[0])
+			max_breeding_time = num(info.split("/")[1].split(" ")[0])
+		else:
+			max_breeding_time = num(info.split(" ")[0])
+
+		if breeding_time  == 0:
+			config.gen_time = time.time() - config.gen_start
+		else:
+			config.gen_start = time.time()
+			config.gen_time = 0
+
+		if config.gen_time > max_breeding_time and config.gen_time < config.max_gen_time:
+
+			get_elem(driver, "tab2Text").click()
+			gen = get_elem(driver, "Geneticist")
+
+			if "thingColorCanAfford" in gen.get_attribute("class"):
+				print("Firing Farmer")
+				get_elem(driver, "fireBtn").click()
+				get_elem(driver, "Farmer").click()
+				get_elem(driver, "fireBtn").click()
+				gen.click()
+
+			get_elem(driver, "tab1Text").click()
+
+		elif config.gen_time == 0:
+			pass
+
+
+
+
+
+
+
+			while num(get_elem(driver, "trimpsTimeToFill").text.split(" ")[-2]) > \
+					config.CHALLENGES[config.current_challenge]["geneticist_target"] + 1:
+				gen.click()
+			get_elem(driver, "fireBtn").click()
+
+
+
+			gen = get_elem(driver, "Geneticist")
+
+
+		if float(get_elem(driver, "trimpsBar").get_attribute("style").split("%;")[0].split(" ")[1]) < 100:
+			print("breeding")
+			num(get_elem(driver, "trimpsTimeToFill").text.split(" ")[-2])
+		gen = get_elem(driver, "Geneticist")
+
+		num(get_elem(driver, "trimpsTimeToFill").text.split(" ")[-2])
+
+
+
+	except Exception as e:
+		print("Geneticist", e)
 
 
 def armor():
@@ -433,9 +552,16 @@ def formation(driver):
 	world_num = world_number(driver)
 	if world_num > 71:
 		try:
-			if world_num > 180:
+			if world_num > 190:
 				if in_world(driver):
-					get_elem(driver,  "formation4").click()
+					msg = driver.find_elements(By.CLASS_NAME, "essenceMessage")
+					for m in msg:
+						if "There are 0 Essence drops left in the current Zone." in m.text:
+							get_elem(driver, "formation2").click()
+						else:
+							get_elem(driver,  "formation4").click()
+					if len(msg) == 0:
+						get_elem(driver,  "formation4").click()
 				else:
 					get_elem(driver,  "formation2").click()
 			else:
@@ -445,7 +571,7 @@ def formation(driver):
 
 def gather(upgrades_to_do):
 	try:
-		if state["trimpTrapText"] > 0 and (state["trimpsOwned"] < state["trimpsMax"] or state["trimpsMax"] == 0):
+		if state["trimpTrapText"] > 0 and (state["trimpsOwned"] < state["trimpsMax"] or state["trimpsMax"] == 0) and False:
 			get_elem(driver,  "trimpsCollectBtn").click() # Traps
 		elif state["build"] == "up" :
 			pass

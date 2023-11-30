@@ -1,47 +1,68 @@
 
 
 
-current_challenge = "Toxicity"
+current_challenge = "none"
 
+show_time = False
+
+gen_time = 0
+gen_start = 0
+max_gen_time = 30
+
+
+current_life = 0
+
+dead_start = 0
+dead_time = 0
+
+alive_start = 0
+alive_time = 0
+
+
+alive_array = []
 
 PERKS = {
 	"Coordinated" : 600,
-	"Carpentry" : 240,
-	"Overkill" : 100,
+	"Overkill" : 30,
 
-	"Resourceful" : 80,
+	"Resourceful" : 40,
 
-	"Artisanistry" : 80,
-	"Looting" : 80,
+	"Artisanistry" : 40,
 	"Siphonology" : 5,
 
+	"HEALTH" : 60,
+	"ATTACK" : 60,
+	"LOOTING" : 80,
+	"CARPENTRY" : 200,
+	"MOTIVATION" : 20,
+
+	"Agility" : 10,	
 	
-	"Power" : 20,
-	"Agility" : 10,
-	"Motivation" : 10,		
-	
-	"Toughness" : 5,
-	"Resilience" : 5,
 	"Anticipation" : 5, 
 	
 	"Bait" : 1,
 	"Pheromones": 2, 
-						
 	
-	
-	"Relentlessness" : 2,
-	
+	"Relentlessness" : 2,	
 	"Meditation" : 2,
 	"Trumps": 1,
 	"Range" : 1,
 	"Packrat" : 1,
 }
 
+PERK_GROUP = {
+	"HEALTH" : ["Toughness", "Toughness_II", "Resilience"],
+	"ATTACK" : ["Power", "Power_II"],
+	"LOOTING" : ["Looting", "Looting_II"],
+	"CARPENTRY" : ["Carpentry", "Carpentry_II"],
+	"MOTIVATION" : ["Motivation", "Motivation_II"],
+}
+
 CHALLENGES = {
 	"none" : {
-		"void_maps_at" : 9999,
-		"gigastation_preset" : (63, 3 ),
-		"portal_at" : 99999, 
+		"void_maps_at" : 201,
+		"gigastation_preset" : (80, 3 ),
+		"portal_at" : 215, 
 		"geneticist_target" : 3,
 	},
 	"Nom" : {
@@ -57,8 +78,8 @@ CHALLENGES = {
 		"geneticist_target" : 3,
 	},
 	"Corrupted" : {
-		"void_maps_at" : 181, # 33
-		"gigastation_preset" : (63, 3),
+		"void_maps_at" : 190, # 33
+		"gigastation_preset" : (65, 3),
 		"portal_at" : 191,
 		"geneticist_target" : 3,
 	},

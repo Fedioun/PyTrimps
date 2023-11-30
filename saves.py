@@ -33,7 +33,7 @@ def import_save(driver):
 
 	try:		
 		divs = driver.find_elements(By.XPATH, "//div[@id='offlineExtraBtnsContainer']/*")
-		time.sleep(10)
+		#time.sleep(10)
 		for d in divs:
 			if "Stop Here" in d.text:
 				d.click()

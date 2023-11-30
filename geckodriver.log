@@ -48858,3 +48858,2293 @@ console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkEr
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
 console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1700751571175	geckodriver	INFO	Listening on 127.0.0.1:52901
+1700751571782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLzYfHM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700751597803	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700751597960	Marionette	INFO	Listening on port 34325
+WebDriver BiDi listening on ws://127.0.0.1:46781
+Read port: 34325
+1700751598189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46781/devtools/browser/2db9e8c3-8a17-47cc-b773-39f1e0d0d38f
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  1700815446978	geckodriver	INFO	Listening on 127.0.0.1:48091
+1700815447523	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSZCWPB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700815447989	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700815448070	Marionette	INFO	Listening on port 36831
+WebDriver BiDi listening on ws://127.0.0.1:33861
+Read port: 36831
+1700815448192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 2657, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:2657): WARNING **: 09:44:08.781: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33861/devtools/browser/ffa84eda-3529-486f-933d-fd2d0303163a
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700815478010	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700825147308	geckodriver	INFO	Listening on 127.0.0.1:42129
+1700825147358	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYfCVBH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700825147921	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700825148012	Marionette	INFO	Listening on port 38203
+WebDriver BiDi listening on ws://127.0.0.1:39069
+Read port: 38203
+1700825148165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 179134, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:179134): WARNING **: 12:25:48.926: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39069/devtools/browser/f41c2c0d-820f-42b0-bd6d-cf02758cd639
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700825178124	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1700827554860	geckodriver	INFO	Listening on 127.0.0.1:56845
+1700827554908	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekU8Ezk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700827555428	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700827555513	Marionette	INFO	Listening on port 44057
+WebDriver BiDi listening on ws://127.0.0.1:44685
+Read port: 44057
+1700827555640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 227255, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:227255): WARNING **: 13:05:56.175: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:44685/devtools/browser/2c16b7c3-1f14-4c4c-9607-728ee34272cd
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700827585618	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 523))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450945/pagestyle20 (resource://devtools/server/actors/page-style.js:523:5)", "resource://devtools/shared/protocol/Front.js", 383))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1700836403963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700836406438	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700836409417	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700836423916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700836425442	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+Exiting due to channel error.
+Exiting due to channel error.
+1700836689430	geckodriver	INFO	Listening on 127.0.0.1:54847
+1700836689984	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevuYB6s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700836690480	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700836690569	Marionette	INFO	Listening on port 38109
+WebDriver BiDi listening on ws://127.0.0.1:40537
+Read port: 38109
+1700836690617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 269158, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:269158): WARNING **: 15:38:11.233: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:40537/devtools/browser/b058395e-3177-442e-b266-d5d964b17637
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700836720548	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700836765381	geckodriver	INFO	Listening on 127.0.0.1:45363
+1700836765418	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2y4xaR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700836765889	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700836765961	Marionette	INFO	Listening on port 41301
+WebDriver BiDi listening on ws://127.0.0.1:34397
+Read port: 41301
+1700836766077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 270952, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:270952): WARNING **: 15:39:26.601: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:34397/devtools/browser/9d59a688-6915-4a83-bc89-0cd0fb4f7d84
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700836795907	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700837198738	geckodriver	INFO	Listening on 127.0.0.1:33039
+1700837198774	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEh8Wty"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700837199219	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700837199295	Marionette	INFO	Listening on port 38783
+WebDriver BiDi listening on ws://127.0.0.1:56839
+Read port: 38783
+1700837199409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 279567, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:279567): WARNING **: 15:46:39.926: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:56839/devtools/browser/95dddb37-35d5-4826-a240-df95f912cd0b
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700837218720	geckodriver	INFO	Listening on 127.0.0.1:40521
+1700837218757	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "46431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNDhNuO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700837219193	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700837219266	Marionette	INFO	Listening on port 33269
+WebDriver BiDi listening on ws://127.0.0.1:46431
+Read port: 33269
+1700837219383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 280298, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:280298): WARNING **: 15:46:59.913: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:46431/devtools/browser/edc544d0-e68d-409c-82a2-caa0d4760eff
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700837249299	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700838888444	geckodriver	INFO	Listening on 127.0.0.1:47947
+1700838888485	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletdVXdy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700838888939	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700838889013	Marionette	INFO	Listening on port 46635
+WebDriver BiDi listening on ws://127.0.0.1:60599
+Read port: 46635
+1700838889132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 312051, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:312051): WARNING **: 16:14:49.665: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:60599/devtools/browser/15410999-4828-4472-ab56-c06472621138
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700838919138	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 281: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700846350095	geckodriver	INFO	Listening on 127.0.0.1:52605
+1700846350142	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3jtrdW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700846350639	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700846350712	Marionette	INFO	Listening on port 33103
+WebDriver BiDi listening on ws://127.0.0.1:52535
+Read port: 33103
+1700846350827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 452826, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:452826): WARNING **: 18:19:11.355: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52535/devtools/browser/f64b453a-139c-40ca-b776-5945c58fc727
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700846380724	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700858883120	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700859095122	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700859547272	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700859686410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700860988724	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700861011855	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1700861301828	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: resource://devtools/client/inspector/shared/highlighters-overlay.js, line 223: TypeError: this.inspector.toolbox is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1700861648674	Marionette	INFO	Stopped listening on port 33103
+1700861648888	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1700906068566	geckodriver	INFO	Listening on 127.0.0.1:35303
+1700906069104	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXRhYBu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700906069547	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700906069648	Marionette	INFO	Listening on port 33749
+WebDriver BiDi listening on ws://127.0.0.1:54821
+Read port: 33749
+1700906069802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 3017, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:3017): WARNING **: 10:54:30.309: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:54821/devtools/browser/a5c137dd-c7eb-4665-9ba3-01122c01e73e
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700906099583	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 285: TypeError: InspectorUtils.removeContentState: Argument 1 is not an object.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700907997597	geckodriver	INFO	Listening on 127.0.0.1:39181
+1700907997636	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8JxFUK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700907998074	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700907998145	Marionette	INFO	Listening on port 34675
+WebDriver BiDi listening on ws://127.0.0.1:49487
+Read port: 34675
+1700907998258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 35240, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:35240): WARNING **: 11:26:38.782: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:49487/devtools/browser/87b04bd2-214d-4410-a290-9f7648e2976b
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700908028467	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 281: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
+1700942291029	geckodriver	INFO	Listening on 127.0.0.1:42875
+1700942291595	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekP2ehY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700942292365	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700942292526	Marionette	INFO	Listening on port 39317
+WebDriver BiDi listening on ws://127.0.0.1:39069
+Read port: 39317
+1700942292774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 2983, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:2983): WARNING **: 20:58:13.613: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39069/devtools/browser/81b10107-baff-4a62-8bde-593f933fa698
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700942322495	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700985517156	geckodriver	INFO	Listening on 127.0.0.1:55811
+1700985517772	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53881" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOaA3Ra"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700985518499	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700985518640	Marionette	INFO	Listening on port 36335
+WebDriver BiDi listening on ws://127.0.0.1:53881
+Read port: 36335
+1700985518841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 3201, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:3201): WARNING **: 08:58:39.640: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:53881/devtools/browser/82f3b249-aa5b-4128-a5b9-64eb70c35632
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700985548669	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1700989561268	geckodriver	INFO	Listening on 127.0.0.1:43027
+1700989561309	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9pGk1X"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700989561828	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1700989561923	Marionette	INFO	Listening on port 40519
+WebDriver BiDi listening on ws://127.0.0.1:39797
+Read port: 40519
+1700989562096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 21495, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:21495): WARNING **: 10:06:02.881: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39797/devtools/browser/74257cfd-4dd2-499f-86c1-bf81df38c187
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700989592229	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1701076769624	geckodriver	INFO	Listening on 127.0.0.1:54653
+1701076770236	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebDdu9S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701076771126	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701076771284	Marionette	INFO	Listening on port 45613
+WebDriver BiDi listening on ws://127.0.0.1:45525
+Read port: 45613
+1701076771499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 6062, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:6062): WARNING **: 10:19:32.372: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:45525/devtools/browser/6b9a28da-7126-4e61-be1c-acf43affc0dd
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701076801235	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701083279111	geckodriver	INFO	Listening on 127.0.0.1:53913
+1701083279152	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0gZ5bN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701083279617	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701083279697	Marionette	INFO	Listening on port 34759
+WebDriver BiDi listening on ws://127.0.0.1:37535
+Read port: 34759
+1701083279816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 125099, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:125099): WARNING **: 12:08:00.327: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:37535/devtools/browser/57fad588-a777-4432-8687-d6af491768e9
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701083309628	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701096579350	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701098526113	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 289: TypeError: this.element is null
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 214: TypeError: this.element is null
+1701101486623	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701118185200	geckodriver	INFO	Listening on 127.0.0.1:47191
+1701118185812	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePBzRgb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701118186720	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701118186928	Marionette	INFO	Listening on port 35701
+WebDriver BiDi listening on ws://127.0.0.1:55483
+Read port: 35701
+1701118187179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 9175, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:9175): WARNING **: 21:49:48.064: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55483/devtools/browser/d91ae9e6-6a03-4090-b32e-bac5cbfbd880
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701118216903	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701120079884	Marionette	INFO	Stopped listening on port 35701
+1701120079925	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1701160596389	geckodriver	INFO	Listening on 127.0.0.1:60511
+1701160596994	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHFHZ1T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701160597774	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701160597904	Marionette	INFO	Listening on port 40379
+WebDriver BiDi listening on ws://127.0.0.1:37527
+Read port: 40379
+1701160598103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 4100, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:4100): WARNING **: 09:36:38.900: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:37527/devtools/browser/b23badb9-5a74-4737-abbb-4067b48e0e85
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701160628481	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701255198864	geckodriver	INFO	Listening on 127.0.0.1:39127
+1701255199470	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileybQjrd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701255200425	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701255200609	Marionette	INFO	Listening on port 38205
+WebDriver BiDi listening on ws://127.0.0.1:51735
+Read port: 38205
+1701255200832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 97060, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:97060): WARNING **: 11:53:21.584: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:51735/devtools/browser/9959e611-82f6-4204-a6bb-c721db61f2e1
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701255230634	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701256750399	geckodriver	INFO	Listening on 127.0.0.1:57203
+1701256750451	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNaUQXa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701256751281	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701256751417	Marionette	INFO	Listening on port 38639
+WebDriver BiDi listening on ws://127.0.0.1:38467
+Read port: 38639
+1701256751611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: ({})
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+[Parent 98080, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:98080): WARNING **: 12:19:12.574: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38467/devtools/browser/bb895348-23b3-4587-82b6-a812ca8a95d0
+1701256753053	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701256781285	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701256845234	Marionette	INFO	Stopped listening on port 38639
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 722: Error: Phase "xpcom-will-shutdown" is finished, it is too late to register completion condition "UserInteractionTimer 1 for document 7f11101b5400"
+1701256848243	geckodriver	INFO	Listening on 127.0.0.1:39947
+1701256848295	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5Cw0ZC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701256849146	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701256849309	Marionette	INFO	Listening on port 41117
+WebDriver BiDi listening on ws://127.0.0.1:34291
+Read port: 41117
+1701256849509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 98569, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:98569): WARNING **: 12:20:50.328: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:34291/devtools/browser/e0b06924-ca5e-4c11-95f8-04385a652752
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701256879217	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701257012741	geckodriver	INFO	Listening on 127.0.0.1:38249
+1701257012802	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFxsNLf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257013732	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257013877	Marionette	INFO	Listening on port 33311
+WebDriver BiDi listening on ws://127.0.0.1:50783
+Read port: 33311
+1701257014068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 99154, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:99154): WARNING **: 12:23:35.347: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:50783/devtools/browser/1a76481d-2b27-4ca2-af78-79b52c3174a3
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701257044480	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701257308089	geckodriver	INFO	Listening on 127.0.0.1:56215
+1701257308147	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL5oR4R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257308984	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257309122	Marionette	INFO	Listening on port 40755
+WebDriver BiDi listening on ws://127.0.0.1:56223
+Read port: 40755
+1701257309199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 100238, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:100238): WARNING **: 12:28:30.402: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:56223/devtools/browser/0e6d540d-2b0d-4cbd-a019-13c0103ad55b
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701257454093	geckodriver	INFO	Listening on 127.0.0.1:50773
+1701257454157	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevV9j5J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257454998	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257455163	Marionette	INFO	Listening on port 45277
+WebDriver BiDi listening on ws://127.0.0.1:52961
+Read port: 45277
+1701257455385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 100733, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:100733): WARNING **: 12:30:56.268: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52961/devtools/browser/69266cdc-7580-4dcf-b0c4-c52a81396f1a
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701257621315	geckodriver	INFO	Listening on 127.0.0.1:59545
+1701257621374	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePAzErv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257622290	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257622625	Marionette	INFO	Listening on port 40117
+WebDriver BiDi listening on ws://127.0.0.1:59803
+Read port: 40117
+1701257622850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 101254, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:101254): WARNING **: 12:33:43.851: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:59803/devtools/browser/487acb6e-3b96-4e6d-87a5-c74747b9d859
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701257998774	geckodriver	INFO	Listening on 127.0.0.1:34025
+1701257998827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "46083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUk969s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257999583	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701257999717	Marionette	INFO	Listening on port 42559
+Read port: 42559
+WebDriver BiDi listening on ws://127.0.0.1:46083
+1701257999800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 101979, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:101979): WARNING **: 12:40:00.754: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:46083/devtools/browser/20d8851a-f17a-4704-adf9-0e9e162b453e
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701258091874	geckodriver	INFO	Listening on 127.0.0.1:59697
+1701258091927	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletAijvp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258092671	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258092812	Marionette	INFO	Listening on port 35479
+WebDriver BiDi listening on ws://127.0.0.1:58335
+Read port: 35479
+1701258092981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 102414, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:102414): WARNING **: 12:41:33.765: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58335/devtools/browser/da81d850-334d-4229-bdf2-68ec2010bf19
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701258250255	geckodriver	INFO	Listening on 127.0.0.1:60237
+1701258250308	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJFVr2A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258251040	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258251171	Marionette	INFO	Listening on port 43759
+WebDriver BiDi listening on ws://127.0.0.1:36725
+Read port: 43759
+1701258251357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 102958, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:102958): WARNING **: 12:44:12.172: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:36725/devtools/browser/1d727558-8264-4f98-95c8-84c3805ab5ae
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701258381386	geckodriver	INFO	Listening on 127.0.0.1:51441
+1701258381453	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo8niT1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258382318	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258382517	Marionette	INFO	Listening on port 33999
+WebDriver BiDi listening on ws://127.0.0.1:58119
+Read port: 33999
+1701258382676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 103393, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:103393): WARNING **: 12:46:23.716: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58119/devtools/browser/f21dfcea-f5c6-4b14-b53a-849c008c48b4
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701258962750	geckodriver	INFO	Listening on 127.0.0.1:40495
+1701258962807	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQyzpMq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258963618	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701258963749	Marionette	INFO	Listening on port 41031
+WebDriver BiDi listening on ws://127.0.0.1:37809
+Read port: 41031
+1701258963936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 104205, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:104205): WARNING **: 12:56:04.721: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:37809/devtools/browser/956c590b-e146-4a8a-aed3-5f3057677dc1
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701264547375	geckodriver	INFO	Listening on 127.0.0.1:46283
+1701264547952	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBTFCMX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264548860	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264549022	Marionette	INFO	Listening on port 45263
+WebDriver BiDi listening on ws://127.0.0.1:36507
+Read port: 45263
+1701264549312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 105560, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:105560): WARNING **: 14:29:10.639: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:36507/devtools/browser/e8697935-670d-4c04-b10a-90c6a92f310c
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701264578870	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701264682333	geckodriver	INFO	Listening on 127.0.0.1:56377
+1701264682395	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileip7pJ6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264683222	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264683371	Marionette	INFO	Listening on port 39975
+WebDriver BiDi listening on ws://127.0.0.1:38971
+Read port: 39975
+1701264683550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 105963, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:105963): WARNING **: 14:31:24.438: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38971/devtools/browser/af5d9b81-93a7-4519-86b2-ea5bc52e5753
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701264831193	geckodriver	INFO	Listening on 127.0.0.1:39971
+1701264831246	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMmN7SB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264832038	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701264832175	Marionette	INFO	Listening on port 39821
+WebDriver BiDi listening on ws://127.0.0.1:50463
+Read port: 39821
+1701264832380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 106460, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:106460): WARNING **: 14:33:53.263: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:50463/devtools/browser/5bbad2a1-fc05-4c91-a7ad-3336c0ae8c4a
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701265081558	geckodriver	INFO	Listening on 127.0.0.1:38045
+1701265081614	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePeQD1n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701265082394	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701265082529	Marionette	INFO	Listening on port 34145
+WebDriver BiDi listening on ws://127.0.0.1:35225
+Read port: 34145
+1701265082746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 106882, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:106882): WARNING **: 14:38:03.634: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:35225/devtools/browser/cc776121-d01a-459b-9f7a-0309219fe972
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701265452932	geckodriver	INFO	Listening on 127.0.0.1:47737
+1701265452986	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexKIQFj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701265453832	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701265453975	Marionette	INFO	Listening on port 43055
+Read port: 43055
+WebDriver BiDi listening on ws://127.0.0.1:47841
+1701265454045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 107461, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:107461): WARNING **: 14:44:15.075: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47841/devtools/browser/a9b9a2d8-6379-4885-87d2-024bce896997
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701265483949	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://trimps.github.io."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701267908887	geckodriver	INFO	Listening on 127.0.0.1:59767
+1701267908933	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexyiY7p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701267909421	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701267909507	Marionette	INFO	Listening on port 38739
+WebDriver BiDi listening on ws://127.0.0.1:42953
+Read port: 38739
+1701267909635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 154551, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:154551): WARNING **: 15:25:10.168: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:42953/devtools/browser/e0a33352-918b-4949-be43-a8fe0e27f247
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701267927982	geckodriver	INFO	Listening on 127.0.0.1:35295
+1701267928018	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKAz25M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701267928459	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701267928532	Marionette	INFO	Listening on port 33055
+WebDriver BiDi listening on ws://127.0.0.1:60539
+Read port: 33055
+1701267928650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 155315, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:155315): WARNING **: 15:25:29.162: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:60539/devtools/browser/88f139eb-6953-4259-b388-f21dd0ed7566
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701268037962	geckodriver	INFO	Listening on 127.0.0.1:60165
+1701268038005	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepxbJZh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701268038448	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701268038520	Marionette	INFO	Listening on port 45627
+WebDriver BiDi listening on ws://127.0.0.1:44165
+Read port: 45627
+1701268038643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 157770, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:157770): WARNING **: 15:27:19.180: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:44165/devtools/browser/10a4cf48-dc90-47b5-8bef-90a6de4383ed
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701271442573	geckodriver	INFO	Listening on 127.0.0.1:58463
+1701271443125	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0rHyJb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271443608	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271443687	Marionette	INFO	Listening on port 38965
+WebDriver BiDi listening on ws://127.0.0.1:55707
+Read port: 38965
+1701271443832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 224647, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:224647): WARNING **: 16:24:04.925: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55707/devtools/browser/fc06a99c-1ece-4a07-a8de-0b97b1092d58
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701271645100	geckodriver	INFO	Listening on 127.0.0.1:44099
+1701271645699	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiIX9Ca"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271646215	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271646318	Marionette	INFO	Listening on port 38777
+WebDriver BiDi listening on ws://127.0.0.1:45979
+Read port: 38777
+1701271646463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 228960, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:228960): WARNING **: 16:27:27.007: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:45979/devtools/browser/b14134f0-7313-401d-9fba-1b08705fea31
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701271823417	geckodriver	INFO	Listening on 127.0.0.1:44091
+1701271823465	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefwtLck"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271823971	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271824060	Marionette	INFO	Listening on port 44365
+Read port: 44365
+WebDriver BiDi listening on ws://127.0.0.1:54751
+1701271824107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 232760, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:232760): WARNING **: 16:30:24.723: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:54751/devtools/browser/dd120fb1-7f34-4193-a1ae-23395aae3143
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701271979382	geckodriver	INFO	Listening on 127.0.0.1:57423
+1701271979421	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2FMXJw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271979897	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701271979971	Marionette	INFO	Listening on port 34195
+WebDriver BiDi listening on ws://127.0.0.1:56341
+Read port: 34195
+1701271980093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 236146, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:236146): WARNING **: 16:33:00.652: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:56341/devtools/browser/f7fee98e-bb2f-48c2-8e56-5b8e7ef820d8
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701272181411	geckodriver	INFO	Listening on 127.0.0.1:40745
+1701272181451	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIFrMrE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272181899	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272181974	Marionette	INFO	Listening on port 39403
+WebDriver BiDi listening on ws://127.0.0.1:50369
+Read port: 39403
+1701272182101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 240342, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:240342): WARNING **: 16:36:22.612: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:50369/devtools/browser/204cc108-9c24-4adb-a88e-d90f5fb8e1f3
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701272565659	geckodriver	INFO	Listening on 127.0.0.1:42459
+1701272565698	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKeJce0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272566172	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272566246	Marionette	INFO	Listening on port 44051
+WebDriver BiDi listening on ws://127.0.0.1:52543
+Read port: 44051
+1701272566367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 248001, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:248001): WARNING **: 16:42:46.883: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52543/devtools/browser/051e243f-e016-40a0-b5e0-7a8f6591e9e5
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701272597412	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701272850929	geckodriver	INFO	Listening on 127.0.0.1:58579
+1701272850968	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePctLzp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272851460	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272851532	Marionette	INFO	Listening on port 39805
+WebDriver BiDi listening on ws://127.0.0.1:47011
+Read port: 39805
+1701272851650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 253938, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:253938): WARNING **: 16:47:32.247: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47011/devtools/browser/9562ab30-81ba-4685-b248-c5aeaa8b7c9b
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701272881884	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701272988731	geckodriver	INFO	Listening on 127.0.0.1:48533
+1701272988772	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileq3CSp6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272989270	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701272989348	Marionette	INFO	Listening on port 40281
+WebDriver BiDi listening on ws://127.0.0.1:41133
+Read port: 40281
+1701272989467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 257097, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:257097): WARNING **: 16:49:49.963: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:41133/devtools/browser/82abea2b-a9ef-4f85-9178-21ad3a7eb07a
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701273020801	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701273323176	geckodriver	INFO	Listening on 127.0.0.1:58439
+1701273323215	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWdLCe0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273323664	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273323741	Marionette	INFO	Listening on port 45499
+WebDriver BiDi listening on ws://127.0.0.1:52441
+Read port: 45499
+1701273323858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 263895, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:263895): WARNING **: 16:55:24.368: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52441/devtools/browser/651e8378-9bd5-450c-8c7f-efb8e403ef15
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701273354455	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701273538950	geckodriver	INFO	Listening on 127.0.0.1:60305
+1701273538988	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33037" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHqMZYI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273539436	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273539510	Marionette	INFO	Listening on port 36419
+WebDriver BiDi listening on ws://127.0.0.1:33037
+Read port: 36419
+1701273539628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 268630, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:268630): WARNING **: 16:59:00.062: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33037/devtools/browser/afc717ff-b2d4-4ce1-bb59-9b609b73271b
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701273570180	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701273833730	geckodriver	INFO	Listening on 127.0.0.1:40267
+1701273833771	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileat9L0w"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273834250	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273834323	Marionette	INFO	Listening on port 41115
+WebDriver BiDi listening on ws://127.0.0.1:39179
+Read port: 41115
+1701273834439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 274709, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:274709): WARNING **: 17:03:54.956: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39179/devtools/browser/880fea15-423f-4e68-b79d-bd2b050ccb66
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701273866372	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701273951419	geckodriver	INFO	Listening on 127.0.0.1:42471
+1701273951468	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLgc1QB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273951914	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701273951986	Marionette	INFO	Listening on port 39303
+WebDriver BiDi listening on ws://127.0.0.1:42785
+Read port: 39303
+1701273952103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 277279, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:277279): WARNING **: 17:05:52.613: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:42785/devtools/browser/e715643a-03f9-4719-b7d6-5793add30c0f
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701273982891	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701274228127	geckodriver	INFO	Listening on 127.0.0.1:44051
+1701274228168	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMBvTHD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701274228619	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701274228693	Marionette	INFO	Listening on port 41231
+WebDriver BiDi listening on ws://127.0.0.1:38861
+Read port: 41231
+1701274228811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 282830, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:282830): WARNING **: 17:10:29.329: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38861/devtools/browser/ceb31dda-0600-47e3-ba2f-73c0821f991e
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701274258668	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701276751506	geckodriver	INFO	Listening on 127.0.0.1:39523
+1701276751559	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45093" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTMvZNa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701276752380	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701276752532	Marionette	INFO	Listening on port 34339
+WebDriver BiDi listening on ws://127.0.0.1:45093
+Read port: 34339
+1701276752703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 291508, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:291508): WARNING **: 17:52:33.867: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:45093/devtools/browser/7f8c501a-2627-4875-a951-1eae0f6f40dc
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701276783039	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701276849387	geckodriver	INFO	Listening on 127.0.0.1:56699
+1701276850021	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3PBvZt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701276850851	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701276851012	Marionette	INFO	Listening on port 44975
+Read port: 44975
+WebDriver BiDi listening on ws://127.0.0.1:57349
+1701276851081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 291960, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:291960): WARNING **: 17:54:12.048: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:57349/devtools/browser/05b3fc94-b31f-4cab-8654-814ab25c34ce
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701276880997	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701277008941	geckodriver	INFO	Listening on 127.0.0.1:39279
+1701277008996	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYnPujt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277009777	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277009930	Marionette	INFO	Listening on port 40483
+WebDriver BiDi listening on ws://127.0.0.1:49563
+Read port: 40483
+1701277010166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 292460, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:292460): WARNING **: 17:56:50.946: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:49563/devtools/browser/c5b298d6-e933-457b-96d7-0d702ada952e
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701277040328	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701277256591	geckodriver	INFO	Listening on 127.0.0.1:45785
+1701277256648	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33281" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile17olag"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277257468	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277257673	Marionette	INFO	Listening on port 46007
+WebDriver BiDi listening on ws://127.0.0.1:33281
+Read port: 46007
+1701277257873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 293072, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:293072): WARNING **: 18:00:58.668: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33281/devtools/browser/e1086a09-33d2-4470-b612-711bb9255e18
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701277287496	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701277361605	geckodriver	INFO	Listening on 127.0.0.1:35009
+1701277361665	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejjShF2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277362547	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277362694	Marionette	INFO	Listening on port 40235
+WebDriver BiDi listening on ws://127.0.0.1:42415
+Read port: 40235
+1701277362904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 293623, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:293623): WARNING **: 18:02:43.721: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:42415/devtools/browser/b6dbb04f-5b2f-4875-9031-246ef9c1ca85
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701277392627	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701277459087	geckodriver	INFO	Listening on 127.0.0.1:35593
+1701277459147	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepNaieF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277459969	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277460134	Marionette	INFO	Listening on port 41285
+WebDriver BiDi listening on ws://127.0.0.1:43343
+Read port: 41285
+1701277460227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 294004, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:294004): WARNING **: 18:04:21.138: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:43343/devtools/browser/5e9f8f1d-3e4b-4717-8700-9488e398f28f
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701277489978	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701277816786	geckodriver	INFO	Listening on 127.0.0.1:36077
+1701277816850	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYnHWQJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277817752	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701277817898	Marionette	INFO	Listening on port 41813
+WebDriver BiDi listening on ws://127.0.0.1:43973
+Read port: 41813
+1701277818092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 294588, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:294588): WARNING **: 18:10:18.880: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:43973/devtools/browser/8a09df1f-e39c-407e-b315-db760ef27187
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701277847965	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701278463454	geckodriver	INFO	Listening on 127.0.0.1:41551
+1701278463506	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3F1zQx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701278464319	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701278464470	Marionette	INFO	Listening on port 41503
+WebDriver BiDi listening on ws://127.0.0.1:53893
+Read port: 41503
+1701278464675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 295379, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:295379): WARNING **: 18:21:05.469: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:53893/devtools/browser/65fd3cc8-043c-4a99-8866-466ec6b48345
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701278494390	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701278501802	geckodriver	INFO	Listening on 127.0.0.1:49387
+1701278501877	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTx9Xpk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701278502685	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701278502836	Marionette	INFO	Listening on port 33713
+WebDriver BiDi listening on ws://127.0.0.1:47001
+Read port: 33713
+1701278503073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 295774, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:295774): WARNING **: 18:21:43.957: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47001/devtools/browser/ba8f7dfe-3539-4bfb-8678-734c50588bc2
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701278532854	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701287795830	geckodriver	INFO	Listening on 127.0.0.1:60315
+1701287796450	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2S95tq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701287797389	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701287797599	Marionette	INFO	Listening on port 37187
+WebDriver BiDi listening on ws://127.0.0.1:47405
+Read port: 37187
+1701287797810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 301721, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:301721): WARNING **: 20:56:38.929: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47405/devtools/browser/fcd40a06-1828-437f-9426-bfd4c6d0872a
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1701287827840	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701287828073	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701287894235	geckodriver	INFO	Listening on 127.0.0.1:46231
+1701287894312	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezNsvtQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701287895197	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701287895388	Marionette	INFO	Listening on port 45921
+WebDriver BiDi listening on ws://127.0.0.1:43073
+Read port: 45921
+1701287895470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 302156, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:302156): WARNING **: 20:58:16.500: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:43073/devtools/browser/6b370b53-dcb6-473a-97a3-e47a1fe0e265
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701287925209	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701288455110	geckodriver	INFO	Listening on 127.0.0.1:40605
+1701288455189	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNJKclu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701288456240	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701288456484	Marionette	INFO	Listening on port 39453
+Read port: 39453
+WebDriver BiDi listening on ws://127.0.0.1:57097
+1701288456639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 303001, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:303001): WARNING **: 21:07:39.034: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:57097/devtools/browser/1505ec5c-99f2-464c-aa62-e7b483441ab0
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701288486430	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701330801264	geckodriver	INFO	Listening on 127.0.0.1:60149
+1701330801849	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyHJGYi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701330802846	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701330803030	Marionette	INFO	Listening on port 36245
+Read port: 36245
+WebDriver BiDi listening on ws://127.0.0.1:57855
+1701330803157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 2846, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:2846): WARNING **: 08:53:24.522: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:57855/devtools/browser/812a67b3-3a7b-4f4a-9963-a5f82891c3ff
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701330832953	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701334483585	geckodriver	INFO	Listening on 127.0.0.1:49353
+1701334483637	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0MJo5B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701334484464	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701334484611	Marionette	INFO	Listening on port 34073
+WebDriver BiDi listening on ws://127.0.0.1:60861
+Read port: 34073
+1701334484798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 5861, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:5861): WARNING **: 09:54:45.661: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:60861/devtools/browser/9f652bb8-10ee-4679-8f37-02c6dd132392
+JavaScript warning: https://trimps.github.io/config.js?60, line 4852: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 505: unreachable code after return statement
+JavaScript warning: https://trimps.github.io/playerSpire.js?60, line 510: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1701334514570	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

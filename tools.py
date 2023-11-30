@@ -38,7 +38,7 @@ def fight_stats(driver):
 	#print("full_block" , full_block)
 	#print("one_shot" , one_shot)
 	#print("got_one_shot" , got_one_shot)
-	print("number_of_hits" , number_of_hits)
+	print("Number of hits" , '{:.3f}'.format(number_of_hits))
 	#print("number_of_hits_tank" , number_of_hits_tank)
 
 	return number_of_hits
@@ -132,11 +132,11 @@ def in_world(driver):
 		return False
 
 
-def argmin(list):
-	min_val = 1e63
+def argmin(liste):
+	min_val = liste[0]
 	min_index = 0
-	for k in range(len(list)):
-		if list[k] < min_val:
-			min_val = list[k]
+	for k in range(len(liste)):
+		if liste[k] < min_val:
+			min_val = liste[k]
 			min_index = k
 	return min_index
