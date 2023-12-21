@@ -23,9 +23,7 @@ def fight_stats(driver):
 	}
 
 	for s in stats :
-		stats[s] = num(get_elem(driver,  s).text.split("-")[0])
-	get_elem(driver,  "actualBadName").text
-
+		stats[s] = num(driver.find_element(By.ID, s).text.split("-")[0])
 	
 	full_block = stats["goodGuyBlock"] > stats["badGuyAttack"] * 1.5
 	one_shot = stats["goodGuyAttack"] > stats["badGuyHealthMax"]
@@ -38,10 +36,10 @@ def fight_stats(driver):
 	#print("full_block" , full_block)
 	#print("one_shot" , one_shot)
 	#print("got_one_shot" , got_one_shot)
-	print("Number of hits" , '{:.3f}'.format(number_of_hits))
+	print("Number of hits" , '{:.4f}'.format(number_of_hits))
 	#print("number_of_hits_tank" , number_of_hits_tank)
 
-	return number_of_hits
+	return [number_of_hits, number_of_hits_tank]
 
 	'''
 	form0Container  #Normal
@@ -93,6 +91,8 @@ def num(number):
 
 def world_number(driver):
 	#print("W N : " + get_elem(driver,  "worldNumber").text.replace("Lv: ", ""))
+	if get_elem(driver, "worldName").text == "Spire":
+		return 200
 	return num(get_elem(driver,  "worldNumber").text.replace("Lv: ", ""))
 
 
@@ -127,7 +127,7 @@ def in_map_selection(driver):
 def in_world(driver):
 	try:
 		get_elem(driver, "realTrimpName").click()
-		return get_elem(driver, "worldName").text == "Zone"
+		return get_elem(driver, "worldName").text == "Zone" or get_elem(driver, "worldName").text == "Spire"
 	except Exception as e:
 		return False
 

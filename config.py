@@ -1,7 +1,7 @@
 
 
 
-current_challenge = "none"
+
 
 show_time = False
 
@@ -25,12 +25,12 @@ PERKS = {
 	"Coordinated" : 600,
 	"Overkill" : 30,
 
-	"Resourceful" : 40,
+	"Resourceful" : 20,
 
 	"Artisanistry" : 40,
 	"Siphonology" : 5,
 
-	"HEALTH" : 60,
+	"HEALTH" : 10,
 	"ATTACK" : 60,
 	"LOOTING" : 80,
 	"CARPENTRY" : 200,
@@ -58,11 +58,14 @@ PERK_GROUP = {
 	"MOTIVATION" : ["Motivation", "Motivation_II"],
 }
 
+current_challenge = "none"
+SCRYING_FORMATION = 215
+
 CHALLENGES = {
 	"none" : {
-		"void_maps_at" : 201,
-		"gigastation_preset" : (80, 3 ),
-		"portal_at" : 215, 
+		"void_maps_at" : 240,
+		"gigastation_preset" : (90, 3 ),
+		"portal_at" : 252,
 		"geneticist_target" : 3,
 	},
 	"Nom" : {
@@ -82,6 +85,12 @@ CHALLENGES = {
 		"gigastation_preset" : (65, 3),
 		"portal_at" : 191,
 		"geneticist_target" : 3,
+	},
+	"Domination" : {
+		"void_maps_at" : 215, # 33
+		"gigastation_preset" : (90, 3),
+		"portal_at" : 216,
+		"geneticist_target" : 30,
 	},
 	
 }

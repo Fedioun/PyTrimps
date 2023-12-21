@@ -8,7 +8,7 @@ import time, math
 import config
 
 from portal import portal
-from tools import num, argmin, in_world, in_map_selection, world_number, get_elem, reset_state
+from tools import num, argmin, in_world, in_map_selection, world_number, get_elem, reset_state, fight_stats
 from maps import maps, exit_map, leaving_map_selection, leaving_void_map_selection, farming_maps
 from saves import import_save, export
 import threading
@@ -68,6 +68,10 @@ def main():
 				reset_state()
 				previous_time = time.time()
 				update_states()
+				previous_time = time.time()
+				leaving_map_selection(driver)
+				if config.show_time:
+					print("leaving_map_selection ", time.time() - previous_time)
 				if config.show_time:
 					print("Update state", time.time() - previous_time)
 				previous_time = time.time()
@@ -111,10 +115,7 @@ def main():
 				leaving_void_map_selection(driver)
 				if config.show_time:
 					print("leaving_void_map_selection ", time.time() - previous_time)
-				previous_time = time.time()
-				leaving_map_selection(driver)
-				if config.show_time:
-					print("leaving_map_selection ", time.time() - previous_time)
+
 				previous_time = time.time()
 				maps(driver, state)
 				if config.show_time:
@@ -123,6 +124,8 @@ def main():
 				if world_number(driver) >= config.CHALLENGES[config.current_challenge]["portal_at"] :
 					portal(driver)
 					pass
+			else: 
+				time.sleep(5)
 
 			
 			
@@ -298,6 +301,7 @@ def update_states():
 		"ScientistOwned",
 		"LumberjackOwned",
 		"GeneticistOwned",
+		"MagmamancerOwned",
 		"gemsOwned",
 		"ExplorerOwned",
 		"trimpTrapText",
@@ -395,18 +399,18 @@ def upgrades():
 						print("Bought " + name)
 
 				if name == "Gigastation":
-						base, inc = config.CHALLENGES[config.current_challenge]["gigastation_preset"]
+					base, inc = config.CHALLENGES[config.current_challenge]["gigastation_preset"]
+					wait = WebDriverWait(driver, 10)
+					giga = wait.until(EC.element_to_be_clickable((By.ID, "GigastationOwned")))
+
+					if num(get_elem(driver,  "WarpstationOwned").text) > base + inc * num(giga.text.split("(")[0]):
 						wait = WebDriverWait(driver, 10)
 						giga = wait.until(EC.element_to_be_clickable((By.ID, "GigastationOwned")))
-						
-						if num(get_elem(driver,  "WarpstationOwned").text) > base + inc * num(giga.text.split("(")[0]):
-							wait = WebDriverWait(driver, 10)
-							giga = wait.until(EC.element_to_be_clickable((By.ID, "GigastationOwned")))
-							giga.click()
-							get_elem(driver,  "confirmTooltipBtn").click()
-							print("Gigastation target :", base + inc * num(get_elem(driver,  "GigastationOwned").text.split("(")[0]))
+						giga.click()
+						get_elem(driver,  "confirmTooltipBtn").click()
+						print("Gigastation target :", base + inc * num(get_elem(driver,  "GigastationOwned").text.split("(")[0]))
 
-							print("Bought " + name)
+						print("Bought " + name)
 
 				elif "thingColorCanAfford" in classes:
 									
@@ -497,7 +501,7 @@ def build():
 		"Barn",
 		"Forge",
 	]
-	bulk_buy = [ "Tribute", "Nursery"]
+	bulk_buy = [ "Tribute"]
 	try:
 		#print(state["upgrades"])
 		#if "Gymystic" not in state["upgrades"]:
@@ -524,8 +528,13 @@ def build():
 							b.click()
 							get_elem(driver,  "confirmTooltipBtn").click()
 					elif name == "Nursery":
-						if 400000 * pow(1.06, num(get_elem(driver,  "NurseryOwned").text)) < 0.2 * state["gemsOwned"]:
-							b.click()
+						#print("Hit taken : ", fight_stats(driver)[1])
+						if fight_stats(driver)[1] < 100:
+
+							if 400000 * pow(1.06, num(get_elem(driver,  "NurseryOwned").text)) < 0.2 * state["gemsOwned"]:
+								print("Buying Nursery")
+								driver.find_element(By.ID, "tab4").click()
+								b.click()
 					
 					else:
 						b.click()
@@ -552,7 +561,7 @@ def formation(driver):
 	world_num = world_number(driver)
 	if world_num > 71:
 		try:
-			if world_num > 190:
+			if world_num > config.SCRYING_FORMATION:
 				if in_world(driver):
 					msg = driver.find_elements(By.CLASS_NAME, "essenceMessage")
 					for m in msg:

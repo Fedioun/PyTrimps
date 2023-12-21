@@ -268,6 +268,7 @@ def get_multiplier(perks_lvl):
 def compounding_perks(perks_lvl, cost):
 	print("Compounding perks")
 	spent = 0
+
 	
 	while spent < cost:
 		m = []
@@ -284,6 +285,43 @@ def compounding_perks(perks_lvl, cost):
 		perks_lvl[chosen_perk][1] += 1
 		
 	return perks_lvl
+
+best_perk_settup = [[], 0]
+def brute_force(perks_lvl, cost, index=0):
+	#print("Brute force", index, cost)
+	print(perks_lvl)
+	if index > len(perks_lvl) - 1:
+		print("Solution : ")
+		multiplier = get_multiplier(perks_lvl)
+		print(multiplier, "for", cost)
+		print(perks_lvl)
+		if multiplier > best_perk_settup[1]:
+			best_perk_settup[0] = deepcopy(perks_lvl)
+			best_perk_settup[1] = multiplier
+			print("Best : ", best_perk_settup)
+
+	else:
+		p_cost = perk_cost(perks_lvl[index][0], perks_lvl[index][1] + 1)
+		tmp = deepcopy(perks_lvl)
+
+		while  p_cost < cost:
+
+			perks_lvl[index][1] += 1
+			tmp = deepcopy(perks_lvl)
+			cost = cost - p_cost
+			if index < len(perks_lvl) - 1:
+				brute_force(tmp, cost, index+1)
+			else:
+				if perk_cost(perks_lvl[index][0], perks_lvl[index][1] + 1) > cost:
+					brute_force(tmp, cost, index+1)
+
+
+			p_cost = perk_cost(perks_lvl[index][0], perks_lvl[index][1] + 1)
+
+
+		brute_force(tmp, cost, index + 1)
+
+
 
 
 
@@ -312,6 +350,7 @@ def click_perk(driver, perk, lvl):
 
 def portal(driver):
 	global state
+	global best_perk_settup
 	try:
 		print("Portal")
 
@@ -337,8 +376,11 @@ def portal(driver):
 			if p in config.PERK_GROUP:
 				print("Group")
 				perks_lvl = [ [x, 0] for x in config.PERK_GROUP[p]]
-				res = compounding_perks(perks_lvl, helium)
-				print(res)
+				#res = compounding_perks(perks_lvl, helium)
+				best_perk_settup = [[], 0]
+				brute_force(perks_lvl, helium)
+				print("best_perk_settup : ", best_perk_settup)
+				res = best_perk_settup[0]
 				for r in res:
 					click_perk(driver, r[0], r[1])
 			else:

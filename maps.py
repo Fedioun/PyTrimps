@@ -2,9 +2,9 @@ from selenium.webdriver.common.by import By
 from tools import in_world
 from selenium.webdriver.common.action_chains import ActionChains
 from tools import num, in_map_selection, world_number, current_cell, fight_stats, get_elem
-import time
+from selenium.webdriver.support import expected_conditions as EC
 import config
-
+from selenium.webdriver.support.ui import WebDriverWait
 special_maps = {
 	#"The Wall" : 15, 
 	#"The Block" : 14, 
@@ -58,16 +58,14 @@ def maps(driver, state):
 				
 				void_maps(driver)
 			else:
-					
-				if not "%" in get_elem(driver, "mapBonus").text and world_num > 10:
-					#print("Going to maps")
-					fs = fight_stats(driver)
+				fs = fight_stats(driver)[0]
+				if (not "%" in get_elem(driver, "mapBonus").text and world_num > 10) or (not "10" in get_elem(driver, "mapBonus").text and fs > 20):
 					#print(fs, world_num % 2 == 0)
 					if fs > 5:
 						mod = "fast"
 						lvl = 0
 						cursors = ["difficulty", "loot"]
-					elif world_num % 2 == 0:
+					elif world_num % 10 == 0 or get_elem(driver, "worldName").text == "Spire":
 						if fs < 0.5:
 							cursors = ["size"]
 						else:
@@ -204,40 +202,42 @@ def create_map(driver, state, lvl, mod, cursors):
 def exit_map(driver, state):
 	try:
 		if not in_world(driver):
-			worldName = get_elem(driver, "worldName").text
-			if worldName in special_maps:
-				cell_num = current_cell(driver) 
-				print(state['current_map_done'])
-				print("Let me out", cell_num)
-				if cell_num < 20:
-					if state['current_map_done'] > 0 :
-						print("Im Leaving")
-						leave_map(driver)
-						state['current_map_done'] = 0
-				else:
-					state['current_map_done'] = 1 + state['current_map_done']
-			elem = get_elem(driver, "mapsBtnText").text
-			world_num = world_number(driver)
+			if not "Abandon" in get_elem(driver, "mapsBtnText").text:
+				worldName = get_elem(driver, "worldName").text
+				if worldName in special_maps:
+					cell_num = current_cell(driver)
+					print(state['current_map_done'])
+					print("Let me out", cell_num)
+					if cell_num < 20:
+						if state['current_map_done'] > 0 :
+							print("Im Leaving")
+							leave_map(driver)
+							state['current_map_done'] = 0
+					else:
+						state['current_map_done'] = 1 + state['current_map_done']
+				elem = get_elem(driver, "mapsBtnText").text
+				world_num = world_number(driver)
 
-			void = is_a_void_map(worldName)
-			farm_map = False
+				void = is_a_void_map(worldName)
+				farm_map = False
+				giga = len(driver.find_elements(By.XPATH, "//div[@id='mapGrid']/ul/li/span[@class='glyphicon glyphicon-book']"))
+				if giga == 0:
+					print("FS : ", fight_stats(driver)[0])
+					if config.current_challenge == "Corrupted":
+						leave = fight_stats(driver)[0] < 0.3 or '10' in elem
+					elif config.current_challenge == "Domination":
 
-			if config.current_challenge == "Corrupted":
-				leave = fight_stats(driver) < 0.3 or '10' in elem
-			else:
-				leave = fight_stats(driver) < 2
-			# Toxicity
-			if config.current_challenge == "Toxicity":
-				if world_num == 165 and num(get_elem(driver, "toxicityStacks").text) < 1400:
-					leave = False
-			try:
-				pass
-				#farm_map = num(get_elem(driver,"CoordinationOwned").text.split("(+")[0].replace(")","")) > 2 and False
-			except Exception as e:
-				pass
-			if leave:
-				if "(" in elem and not void:
-						print("Leaving map")
+
+						leave = fight_stats(driver)[0] < 0.0001
+					else:
+						leave = fight_stats(driver)[0] <1
+					print(leave)
+					# Toxicity
+					if config.current_challenge == "Toxicity":
+						if world_num == 165 and num(get_elem(driver, "toxicityStacks").text) < 1400:
+							leave = False
+
+					if leave:
 						leave_map(driver)
 
 
@@ -250,14 +250,9 @@ def exit_map(driver, state):
 
 def leave_map(driver):
 	try:
+
 		get_elem(driver, "mapsBtnText").click()
-		if "Abandon" in get_elem(driver, "mapsBtnText").text:
-			get_elem(driver, "mapsBtnText").click()
-		try:
-			get_elem(driver, "recycleMapBtn").click()
-		except Exception as e:
-			pass
-		get_elem(driver, "mapsBtnText").click()
+
 	except Exception as e:
 		print("leave", e)
 
@@ -278,6 +273,10 @@ def is_a_void_map(worldName):
 def leaving_map_selection(driver):
 	if in_map_selection(driver):
 		get_elem(driver, "mapsBtnText").click()
+		try:
+			get_elem(driver,  "fightBtn").click()
+		except Exception as e:
+			print("leaving_map_selection", e)
 
 
 
