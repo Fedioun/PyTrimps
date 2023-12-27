@@ -59,13 +59,13 @@ def maps(driver, state):
 				void_maps(driver)
 			else:
 				fs = fight_stats(driver)[0]
-				if (not "%" in get_elem(driver, "mapBonus").text and world_num > 10) or (not "10" in get_elem(driver, "mapBonus").text and fs > 20):
+				if (not "%" in get_elem(driver, "mapBonus").text and world_num > 10) or (not "200" in get_elem(driver, "mapBonus").text and fs > 40):
 					#print(fs, world_num % 2 == 0)
-					if fs > 5:
+					if fs > 40:
 						mod = "fast"
 						lvl = 0
-						cursors = ["difficulty", "loot"]
-					elif world_num % 10 == 0 or get_elem(driver, "worldName").text == "Spire":
+						cursors = ["loot" "size", "difficulty"]
+					elif (world_num % 10 == 0 and world_num > 126) or get_elem(driver, "worldName").text == "Spire":
 						if fs < 0.5:
 							cursors = ["size"]
 						else:
@@ -230,14 +230,14 @@ def exit_map(driver, state):
 
 						leave = fight_stats(driver)[0] < 0.0001
 					else:
-						leave = fight_stats(driver)[0] <1
+						leave = fight_stats(driver)[0] < 1 or '10' in elem
 					print(leave)
 					# Toxicity
 					if config.current_challenge == "Toxicity":
 						if world_num == 165 and num(get_elem(driver, "toxicityStacks").text) < 1400:
 							leave = False
 
-					if leave:
+					if leave and not void:
 						leave_map(driver)
 
 

@@ -36,7 +36,7 @@ def fight_stats(driver):
 	#print("full_block" , full_block)
 	#print("one_shot" , one_shot)
 	#print("got_one_shot" , got_one_shot)
-	print("Number of hits" , '{:.4f}'.format(number_of_hits))
+	#print("Number of hits" , '{:.4f}'.format(number_of_hits))
 	#print("number_of_hits_tank" , number_of_hits_tank)
 
 	return [number_of_hits, number_of_hits_tank]
@@ -100,7 +100,7 @@ def current_cell(driver):
 
 	world_cell = -1
 	map_cell = -1
-	cells = driver.find_elements_by_class_name("cellColorCurrent")
+	cells = driver.find_elements(By.CLASS_NAME, "cellColorCurrent")
 
 	for c in cells:
 		cell_id = c.get_attribute("id")

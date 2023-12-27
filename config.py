@@ -23,28 +23,28 @@ alive_array = []
 
 PERKS = {
 	"Coordinated" : 600,
-	"Overkill" : 30,
+	"Overkill" : 20,
 
-	"Resourceful" : 20,
+	"Resourceful" : 10,
 
-	"Artisanistry" : 40,
+	"Artisanistry" : 30,
 	"Siphonology" : 5,
 
-	"HEALTH" : 10,
-	"ATTACK" : 60,
+	"HEALTH" : 40,
+	"ATTACK" : 70,
 	"LOOTING" : 80,
 	"CARPENTRY" : 200,
-	"MOTIVATION" : 20,
+	"MOTIVATION" : 40,
 
-	"Agility" : 10,	
+	"Agility" : 1,
 	
-	"Anticipation" : 5, 
+	"Anticipation" : 1,
 	
 	"Bait" : 1,
-	"Pheromones": 2, 
+	"Pheromones": 1,
 	
-	"Relentlessness" : 2,	
-	"Meditation" : 2,
+	"Relentlessness" : 1,
+	"Meditation" : 1,
 	"Trumps": 1,
 	"Range" : 1,
 	"Packrat" : 1,
@@ -59,13 +59,13 @@ PERK_GROUP = {
 }
 
 current_challenge = "none"
-SCRYING_FORMATION = 215
+SCRYING_FORMATION = 275
 
 CHALLENGES = {
 	"none" : {
-		"void_maps_at" : 240,
-		"gigastation_preset" : (90, 3 ),
-		"portal_at" : 252,
+		"void_maps_at" : 270,
+		"gigastation_preset" : (120, 3 ),
+		"portal_at" : 271,
 		"geneticist_target" : 3,
 	},
 	"Nom" : {
@@ -78,7 +78,7 @@ CHALLENGES = {
 		"void_maps_at" : 165, # 33
 		"gigastation_preset" : (33, 3),
 		"portal_at" : 168,
-		"geneticist_target" : 3,
+		"geneticist_tar72get" : 3,
 	},
 	"Corrupted" : {
 		"void_maps_at" : 190, # 33

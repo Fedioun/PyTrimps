@@ -66,64 +66,33 @@ def main():
 			if showcounter % 2 == 0:
 
 				reset_state()
-				previous_time = time.time()
-				update_states()
-				previous_time = time.time()
-				leaving_map_selection(driver)
-				if config.show_time:
-					print("leaving_map_selection ", time.time() - previous_time)
-				if config.show_time:
-					print("Update state", time.time() - previous_time)
-				previous_time = time.time()
+				#update_states()
+				#leaving_map_selection(driver)
 
-				upgrades_to_do = upgrades()
-				if config.show_time:
-					print("upgrades", time.time() - previous_time)
-				previous_time = time.time()
-				if not upgrades_to_do:
-					armor()
-					if config.show_time:
-						print("armor", time.time() - previous_time)
-				previous_time = time.time()
-				hire()
-				if config.show_time:
-					print("hire ", time.time() - previous_time)
-				previous_time = time.time()
-				check_geneticist()
-				if config.show_time:
-					print("check_geneticist ", time.time() - previous_time)
-				previous_time = time.time()
-				gather(upgrades_to_do)
-				if config.show_time:
-					print("gather ", time.time() - previous_time)
-				previous_time = time.time()
+				armor()
+
+				geneticit_assist()
+
+				#gather(upgrades_to_do)
+
 				fight()
-				build()
-				if config.show_time:
-					print("build ", time.time() - previous_time)
-				previous_time = time.time()
-				#print("7")
+				#build()
+
 				formation(driver)
-				if config.show_time:
-					print("formation ", time.time() - previous_time)
-				previous_time = time.time()
 
-				exit_map(driver, state)
-				if config.show_time:
-					print("exit_map ", time.time() - previous_time)
-				previous_time = time.time()
-				leaving_void_map_selection(driver)
-				if config.show_time:
-					print("leaving_void_map_selection ", time.time() - previous_time)
 
-				previous_time = time.time()
-				maps(driver, state)
-				if config.show_time:
-					print("maps ", time.time() - previous_time)
+				#exit_map(driver, state)
+				#leaving_void_map_selection(driver)
+
+				#maps(driver, state)
 
 				if world_number(driver) >= config.CHALLENGES[config.current_challenge]["portal_at"] :
-					portal(driver)
+					if in_world(driver):
+						check_heirlooms()
+						spend_magmite()
+						portal(driver)
 					pass
+				nurseries()
 			else: 
 				time.sleep(5)
 
@@ -148,6 +117,55 @@ def check_geneticist():
 		#print(e)
 		pass
 
+def geneticit_assist():
+
+	if world_number(driver) > 80 and world_number(driver) < 201:
+		while not "30" in driver.find_element(By.ID,"GeneticistassistSetting").text:
+			driver.find_element(By.ID, "GeneticistassistSetting").click()
+	if world_number(driver) > 200:
+		while not "3 " in driver.find_element(By.ID,"GeneticistassistSetting").text:
+			driver.find_element(By.ID, "GeneticistassistSetting").click()
+
+
+def spend_magmite():
+	print("Spending Magmite")
+	get_elem(driver, "upgradeMagmiteTotal").click()
+
+	bought = True
+	magmite_upgrades = [
+		"generatorUpgradeCapacity",
+		"generatorUpgradeSupply",
+		"generatorUpgradeEfficiency",
+		"generatorUpgradeOverclocker",
+	]
+
+	while bought:
+		bought = False
+
+		for u in magmite_upgrades:
+			e = driver.find_element(By.ID, u)
+			if "thingColorCanAfford" in e.get_attribute("class"):
+				bought = True
+				print("Bought " + u)
+				e.click()
+				driver.find_element(By.ID, "magmiteCost").click()
+	webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+
+
+def check_heirlooms():
+	print("Checking Heirlooms")
+	rarity = "heirloomRare7"
+	get_elem(driver, "heirloomsBtn").click()
+
+	heirlooms = driver.find_elements(By.XPATH, "//div[@id='extraHeirloomsHere']/*")
+	for h in heirlooms:
+		if rarity in h.get_attribute("class"):
+			h.click()
+			driver.find_element(By.ID, "carryHeirloomBtn").click()
+			print("Saved Heirloom")
+			break
+
+	webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 def geneticist():
 	try:
@@ -529,7 +547,7 @@ def build():
 							get_elem(driver,  "confirmTooltipBtn").click()
 					elif name == "Nursery":
 						#print("Hit taken : ", fight_stats(driver)[1])
-						if fight_stats(driver)[1] < 100:
+						if fight_stats(driver)[1] < 2:
 
 							if 400000 * pow(1.06, num(get_elem(driver,  "NurseryOwned").text)) < 0.2 * state["gemsOwned"]:
 								print("Buying Nursery")
@@ -555,6 +573,14 @@ def is_breeding():
 	except Exception as e :
 		print("Breeding", e)
 		return False
+
+def nurseries():
+	if fight_stats(driver)[1] < 2:
+		n = get_elem(driver, "NurseryOwned")
+		print("Buying Nursery")
+		driver.find_element(By.ID, "tab4").click()
+		n.click()
+		driver.find_element(By.ID, "tab1").click()
 
 
 def formation(driver):

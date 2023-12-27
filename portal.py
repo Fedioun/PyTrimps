@@ -278,7 +278,7 @@ def compounding_perks(perks_lvl, cost):
 			tmp = deepcopy(perks_lvl)
 			tmp[k][1] += 1
 			m.append(get_multiplier(tmp))
-			print("Mult ", k, " : ", m[-1], " Cost : ",c[-1] ," Ratio : ", c[-1]/m[-1])
+			#print("Mult ", k, " : ", m[-1], " Cost : ",c[-1] ," Ratio : ", c[-1]/m[-1])
 
 		chosen_perk = argmin([c[k]/m[k] for k in range(len(perks_lvl))])
 		spent += c[chosen_perk]
@@ -289,16 +289,16 @@ def compounding_perks(perks_lvl, cost):
 best_perk_settup = [[], 0]
 def brute_force(perks_lvl, cost, index=0):
 	#print("Brute force", index, cost)
-	print(perks_lvl)
+	#print(perks_lvl)
 	if index > len(perks_lvl) - 1:
-		print("Solution : ")
+		#print("Solution : ")
 		multiplier = get_multiplier(perks_lvl)
-		print(multiplier, "for", cost)
-		print(perks_lvl)
+		#print(multiplier, "for", cost)
+		#print(perks_lvl)
 		if multiplier > best_perk_settup[1]:
 			best_perk_settup[0] = deepcopy(perks_lvl)
 			best_perk_settup[1] = multiplier
-			print("Best : ", best_perk_settup)
+			#print("Best : ", best_perk_settup)
 
 	else:
 		p_cost = perk_cost(perks_lvl[index][0], perks_lvl[index][1] + 1)
